@@ -77,7 +77,8 @@ module.exports = function(eleventyConfig) {
   // Copy Node Modules dependencies
   eleventyConfig.addPassthroughCopy({
     "node_modules/aos/dist/aos.css": "_assets/css/aos.css",
-    "node_modules/aos/dist/aos.js": "_assets/js/aos.js"
+    "node_modules/aos/dist/aos.js": "_assets/js/aos.js",
+    "node_modules/aos/dist/fontawesome.js": "https://kit.fontawesome.com/f8f49d4cdb.js"
   });
 
   eleventyConfig.setBrowserSyncConfig({
