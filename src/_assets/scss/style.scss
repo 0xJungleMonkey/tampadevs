@@ -139,7 +139,8 @@ a:focus {
 .td-header__ctas a {
   border: 1px solid $colorOrange;
   width: 200px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   border-radius: 8px;
   padding: 10px;
   margin: 5px 20px;
